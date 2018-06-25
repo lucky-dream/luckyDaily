@@ -1,5 +1,5 @@
 #include"util/error_code_mgr.h"
-namespace LF {
+namespace luckyDaily {
 #define ALL_USER_ERROR_MSG(XX) {USER_MSG_CODE_ERROR_MAP(XX)}
 #define XX(num, name, string) string,
 	static char*	user_error_msg[LF_ERROR_CODE::USER_ERROR_END&0XFF] = ALL_USER_ERROR_MSG(XX);

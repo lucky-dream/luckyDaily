@@ -1,5 +1,5 @@
 #include"app/service_cmd_mgr.h"
-namespace LF
+namespace luckyDaily
 {
 	OBJ_SINGLETON_INIT(service_cmd_map);
 	service_cmd_map g_service_cmd_map;

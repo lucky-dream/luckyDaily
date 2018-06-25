@@ -3,7 +3,7 @@
 #include"util/base_def.h"
 #include"util/scoped_lock.h"
 #include"util/os_type.h"
-namespace LF{
+namespace luckyDaily{
 	class LF_DLL_API fast_lock
 	{
 	public:

@@ -1,7 +1,7 @@
 #ifndef CODE_UTIL_H
 #define CODE_UTIL_H
 #include"util/base_def.h"
-namespace LF
+namespace luckyDaily
 {
 	class code_util
 	{

@@ -2,7 +2,7 @@
 #define USER_MGR_BY_MYSQL_H
 #include "util/base_def.h"
 #include"dbmgr/db_mgr.h"
-namespace LF
+namespace luckyDaily
 {
 	class user_mgr
 	{

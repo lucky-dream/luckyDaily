@@ -3,7 +3,7 @@
 #include"util/base_def.h"
 #include"dbmgr/db_mgr.h"
 #include"dbmgr/bill_meta.h"
-namespace LF 
+namespace luckyDaily 
 {
 	//个人账单查询可选项
 	struct owner_bill_query_options

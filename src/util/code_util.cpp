@@ -1,6 +1,6 @@
 #include"util/code_util.h"
 #include<cctype>
-namespace LF
+namespace luckyDaily
 {
 	static const char *uppercase_hex_digits = "0123456789ABCDEF";
 	static const char *lowcase_hex_digits = "0123456789abcdef";

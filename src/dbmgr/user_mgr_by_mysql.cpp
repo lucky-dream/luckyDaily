@@ -1,6 +1,6 @@
 #include"dbmgr/user_mgr_by_mysql.h"
 #include"util/error_code_mgr.h"
-namespace LF
+namespace luckyDaily
 {
 	uint32_t user_mgr::find_name(const string & uid, db_object * db, string & uname)
 	{

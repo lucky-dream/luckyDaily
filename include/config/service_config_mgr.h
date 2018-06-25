@@ -2,7 +2,7 @@
 #define SERVICE_CONFIG_MGR_H
 #include"util/singleton.h"
 #include<map>
-namespace LF
+namespace luckyDaily
 {
 	struct service_config_info 
 	{

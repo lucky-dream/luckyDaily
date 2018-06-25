@@ -1,7 +1,7 @@
 #ifndef SCOPED_LOCK_H
 #define SCOPED_LOCK_H
 #include"util/base_def.h"
-namespace LF {
+namespace luckyDaily {
 #if defined(_DEBUG) 
 #define US_UNEXPECTED() 
 #else 

@@ -6,7 +6,7 @@
 #ifndef _CHECK_JSON
 #define _CHECK_JSON(Doc,Key,Type) (((Doc).HasMember(Key)?true:false)&&(Doc)[Key].Is##Type())
 #endif // !_CHECK_JSON
-namespace LF
+namespace luckyDaily
 {
 	OBJ_SINGLETON_INIT(service_config_mgr);
 	service_config_mgr g_service_config_mgr;

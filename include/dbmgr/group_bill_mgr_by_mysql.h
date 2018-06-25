@@ -3,7 +3,7 @@
 #include"util/base_def.h"
 #include"dbmgr/db_mgr.h"
 #include"dbmgr/bill_meta.h"
-namespace LF
+namespace luckyDaily
 {
 #define GBILL_STATUS_ALL_MASK 0X3  //（默认）组账单所有状态掩码
 	//个人账单查询可选项

@@ -1,7 +1,7 @@
 #include"dbmgr/db_mgr.h"
 
 #define  bulidCount    10    //定义数据库连接条数
-namespace LF
+namespace luckyDaily
 {
 	db_object::db_object(const db_info & db_info)
 	{

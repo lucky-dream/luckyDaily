@@ -1,7 +1,7 @@
 #include "dbmgr/db_transaction_by_mysql.h"
 #include"util/error_code_mgr.h"
 #include "mysql.h"
-namespace LF
+namespace luckyDaily
 {
 	uint32_t db_transaction::start_transaction(db_object* db)
 	{

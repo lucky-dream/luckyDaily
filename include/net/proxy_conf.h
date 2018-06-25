@@ -4,7 +4,7 @@
 #include"util/singleton.h"
 #include"util/lock.h"
 #include <map>
-namespace LF
+namespace luckyDaily
 {
 #define kProxy_DOMAIN "proxy"
 	typedef std::map<string, string> ConfMap;

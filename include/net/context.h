@@ -6,7 +6,7 @@
 #include "evpp/libevent.h"
 #include "util/name_value_collection.h"
 #include<memory>
-namespace LF
+namespace luckyDaily
 {
 	enum ResponseHandlerType
 	{

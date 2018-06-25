@@ -2,7 +2,7 @@
 #define SINGLETON_H
 #include"base_def.h"
 #include <assert.h>
-namespace LF{
+namespace luckyDaily{
 
 	template <typename T>
 	class singleton

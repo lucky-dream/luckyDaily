@@ -1,7 +1,7 @@
 #ifndef SLICE_H
 #define SLICE_H
 #include "evpp/slice.h"
-namespace LF
+namespace luckyDaily
 {
 	class slice :public evpp::Slice
 	{

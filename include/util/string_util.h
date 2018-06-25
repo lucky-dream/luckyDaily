@@ -3,7 +3,7 @@
 #include <cstring>
 #include <algorithm>
 #include "util/ascii.h"
-namespace LF
+namespace luckyDaily
 {
 	namespace string_util
 	{

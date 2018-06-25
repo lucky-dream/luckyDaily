@@ -1,7 +1,7 @@
 #ifndef HTTP_DEF_H
 #define HTTP_DEF_H
 #include"util/base_def.h"
-namespace LF
+namespace luckyDaily
 {
 
 	class http_def

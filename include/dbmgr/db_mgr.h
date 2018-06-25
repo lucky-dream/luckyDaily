@@ -5,7 +5,7 @@
 #include"mysql.h"
 #include<memory>
 #include<queue>
-namespace LF
+namespace luckyDaily
 {
 	struct db_info
 	{

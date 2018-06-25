@@ -2,7 +2,7 @@
 #define BILL_META_H
 #include"util/base_def.h"
 #include<vector>
-namespace LF
+namespace luckyDaily
 {
 #define MAX_MASK_DEFAULT_32 0XFFFFFFFF     //32位最大掩码
 #define MAX_MASK_DEFAULT_64 0XFFFFFFFFFFFFFFFF  //64位最大掩码

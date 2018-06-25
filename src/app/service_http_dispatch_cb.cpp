@@ -5,7 +5,7 @@
 #include"util/name_value_collection.h"
 #include"app/service_cmd_mgr.h"
 #include"util/code_util.h"
-namespace LF
+namespace luckyDaily
 {
 	static void ParserURI(std::string& in_uri/*, std::string& out_theme, std::string& out_layer*/, name_value_collection& out_nv)
 	{

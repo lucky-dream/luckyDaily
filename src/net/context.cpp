@@ -1,5 +1,5 @@
 #include"net/context.h"
-namespace LF
+namespace luckyDaily
 {
 
 	context::context(const evpp::http::ContextPtr & ctx , const string rsp_body

@@ -2,7 +2,7 @@
 #define SERVICE_HTTP_DISPATCH_CB_H
 #include"net/context.h"
 #define LF_TASKSVR_NAME "task"
-namespace LF
+namespace luckyDaily
 {
 	class service_http_dispatch_cb
 	{

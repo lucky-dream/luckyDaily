@@ -2,7 +2,7 @@
 #define NAME_VALUE_COLLECTION_H
 #include"util/base_def.h"
 #include<map>
-namespace LF
+namespace luckyDaily
 {
 	class name_value_collection
 		/// A collection of name-value pairs that are used in

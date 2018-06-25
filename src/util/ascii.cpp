@@ -1,5 +1,5 @@
 #include"util/ascii.h"
-namespace LF
+namespace luckyDaily
 {
 	const int ascii::CHARACTER_PROPERTIES[128] =
 	{

@@ -1,7 +1,7 @@
 #include"dbmgr/group_bill_mgr_by_mysql.h"
 #include"util/error_code_mgr.h"
 #include"util/uuid4.h"
-namespace LF
+namespace luckyDaily
 {
 	static string get_bill_table_name_by_gid(const string& gid)
 	{

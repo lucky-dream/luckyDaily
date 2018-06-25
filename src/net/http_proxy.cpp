@@ -4,7 +4,7 @@
 #include"net/proxy_conf.h"
 #include"net/http_def.h"
 #include"util/name_value_collection.h"
-namespace LF
+namespace luckyDaily
 {
 	void http_proxy::proxy_by_svr_name(const string && uri, const LFCtxPtr && ctx,
 		evpp::EventLoop * loop, const evpp::http::HTTPSendResponseCallback && cb)

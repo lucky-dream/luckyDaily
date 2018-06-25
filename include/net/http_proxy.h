@@ -2,7 +2,7 @@
 #define HTTP_PROXY_H
 #include"util/base_def.h"
 #include"net/context.h"
-namespace LF
+namespace luckyDaily
 {
 	class http_proxy
 	{

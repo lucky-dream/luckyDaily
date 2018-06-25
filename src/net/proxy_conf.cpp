@@ -1,5 +1,5 @@
 #include "net/proxy_conf.h"
-namespace LF
+namespace luckyDaily
 {
 	OBJ_SINGLETON_INIT(proxy_conf);
 	proxy_conf g_proxy_conf;

@@ -1,5 +1,5 @@
 #include"util/name_value_collection.h"
-namespace LF
+namespace luckyDaily
 {
 	std::string name_value_collection::DEFAULT_VALUE = "default value!";
 	name_value_collection::name_value_collection()

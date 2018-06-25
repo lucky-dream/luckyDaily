@@ -3,7 +3,7 @@
 #include"util/base_def.h"
 #include"util/singleton.h"
 #include<map>
-namespace LF
+namespace luckyDaily
 {
 #define SERVICE_ENUM_CMD_TYPE(XX)  \
 	/*	ÃüÁîÃ¶¾ÙÖµ				 ÃüÁîop			 ÃèÊö*/  \

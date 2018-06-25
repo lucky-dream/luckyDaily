@@ -8,7 +8,7 @@
 
 #define FMIS_THREAD_NUM 4
 
-using namespace LF;
+using namespace luckyDaily;
 int main(int argc, char* argv[])
 {
 	string path("./lucky_daily.conf");

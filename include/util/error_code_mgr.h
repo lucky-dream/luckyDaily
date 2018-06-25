@@ -5,7 +5,7 @@
 #define DECLARE_NON_COPYABLE(className) \
 	className(const className&); \
 	className& operator= (const className&)
-namespace LF {
+namespace luckyDaily {
 #define _CHECK_JSON(Doc,Key,Type) (((Doc).HasMember(Key)?true:false)&&(Doc)[Key].Is##Type())
 #if defined(_DEBUG) 
 #define	_SET_ERR_CODE(out_err,out_code,us_err_code)   \

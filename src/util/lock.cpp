@@ -1,5 +1,5 @@
 #include"util/lock.h"
-namespace LF{
+namespace luckyDaily{
 	fast_lock::fast_lock()
 	{
 #ifdef _WIN32

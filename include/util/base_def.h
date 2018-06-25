@@ -1,7 +1,7 @@
 #ifndef BASE_DEF_H
 #define BASE_DEF_H
 #include <string>
-namespace LF
+namespace luckyDaily
 {
 #ifdef _WIN32
 #ifndef DLL_EXPORT

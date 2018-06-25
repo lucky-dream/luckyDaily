@@ -1,6 +1,6 @@
 #include "net/http_server.h"
 #include "net/http_proxy.h"
-namespace LF
+namespace luckyDaily
 {
 	http_server::http_server(const uint32_t & thread_num)
 	{

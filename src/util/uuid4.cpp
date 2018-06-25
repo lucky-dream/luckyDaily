@@ -13,7 +13,7 @@
 #endif
 
 #include "util/uuid4.h"
-namespace LF
+namespace luckyDaily
 {
 
 	static int seeded = 0;

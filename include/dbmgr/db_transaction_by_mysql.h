@@ -2,7 +2,7 @@
 #define DB_TRANSACTION_BY_MYSQL
 #include"util/base_def.h"
 #include"dbmgr/db_mgr.h"
-namespace LF
+namespace luckyDaily
 {
 	class db_transaction
 	{

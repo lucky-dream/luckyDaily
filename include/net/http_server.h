@@ -3,7 +3,7 @@
 #include"util/base_def.h"
 #include"evpp/http/http_server.h"
 #include"net/context.h"
-namespace LF
+namespace luckyDaily
 {
 	typedef std::shared_ptr<evpp::http::Server> HTTPSvrPtr;
 	class LF_DLL_API http_server

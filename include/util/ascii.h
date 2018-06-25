@@ -1,7 +1,7 @@
 #ifndef ASCII_H
 #define ASCII_H
 #include"util/base_def.h"
-namespace LF
+namespace luckyDaily
 {
 	/// This class contains enumerations and static
 	/// utility functions for dealing with ASCII characters
