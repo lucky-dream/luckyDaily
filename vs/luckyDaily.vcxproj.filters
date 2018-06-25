@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\app\main.cpp" />
+    <ClCompile Include="..\src\config\service_config_mgr.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\app\service_http_dispatch_cb.cpp">
+      <Filter>dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\app\service_cmd_mgr.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="config">
+      <UniqueIdentifier>{cc3a7d63-5cc9-44da-8ba3-dbe54a8a2a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dispatch">
+      <UniqueIdentifier>{02a902e8-9ac1-46c6-8df2-99cf90238ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command">
+      <UniqueIdentifier>{c39c831e-4fca-456f-b701-fc9088c8cf50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service">
+      <UniqueIdentifier>{d50835d7-a30e-471e-8d3d-83477c15c555}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\config\service_config_mgr.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\app\service_http_dispatch_cb.h">
+      <Filter>dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\app\service_cmd_mgr.h">
+      <Filter>command</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
