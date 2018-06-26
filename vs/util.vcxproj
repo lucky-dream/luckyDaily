@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\3rd\xxHash\xxhash.h" />
     <ClInclude Include="..\include\util\ascii.h" />
     <ClInclude Include="..\include\util\base_def.h" />
     <ClInclude Include="..\include\util\code_util.h" />
@@ -32,6 +33,7 @@
     <ClInclude Include="..\include\util\uuid4.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\3rd\xxHash\xxhash.c" />
     <ClCompile Include="..\src\util\ascii.cpp" />
     <ClCompile Include="..\src\util\code_util.cpp" />
     <ClCompile Include="..\src\util\error_code_mgr.cpp" />

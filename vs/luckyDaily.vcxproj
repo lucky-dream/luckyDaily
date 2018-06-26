@@ -153,11 +153,13 @@
     <ClCompile Include="..\src\app\service_http_dispatch_cb.cpp" />
     <ClCompile Include="..\src\app\main.cpp" />
     <ClCompile Include="..\src\config\service_config_mgr.cpp" />
+    <ClCompile Include="..\src\service\token_manager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\app\service_cmd_mgr.h" />
     <ClInclude Include="..\include\app\service_http_dispatch_cb.h" />
     <ClInclude Include="..\include\config\service_config_mgr.h" />
+    <ClInclude Include="..\include\service\token_manager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

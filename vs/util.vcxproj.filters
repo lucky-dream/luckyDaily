@@ -39,6 +39,9 @@
     <ClInclude Include="..\include\util\error_code_mgr.h">
       <Filter>base</Filter>
     </ClInclude>
+    <ClInclude Include="..\3rd\xxHash\xxhash.h">
+      <Filter>base</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\util\uuid4.cpp">
@@ -57,6 +60,9 @@
       <Filter>base</Filter>
     </ClCompile>
     <ClCompile Include="..\src\util\error_code_mgr.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rd\xxHash\xxhash.c">
       <Filter>base</Filter>
     </ClCompile>
   </ItemGroup>

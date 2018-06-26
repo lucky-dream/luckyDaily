@@ -11,6 +11,9 @@
     <ClCompile Include="..\src\app\service_cmd_mgr.cpp">
       <Filter>command</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\service\token_manager.cpp">
+      <Filter>token</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="config">
@@ -25,6 +28,9 @@
     <Filter Include="service">
       <UniqueIdentifier>{d50835d7-a30e-471e-8d3d-83477c15c555}</UniqueIdentifier>
     </Filter>
+    <Filter Include="token">
+      <UniqueIdentifier>{ab7a43a5-ed80-40f5-b979-4e7065e983d7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\config\service_config_mgr.h">
@@ -35,6 +41,9 @@
     </ClInclude>
     <ClInclude Include="..\include\app\service_cmd_mgr.h">
       <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\service\token_manager.h">
+      <Filter>token</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
